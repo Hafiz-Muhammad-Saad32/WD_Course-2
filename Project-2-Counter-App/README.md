@@ -18,11 +18,21 @@ This is my first React project: a simple yet functional **Counter App** built us
 - **JavaScript (ES6+)**
 - **Node.js** (for local development environment)
 
-## 📷 Preview
+## 🚀 Getting Started
 
-> _You can add a screenshot here if you like:_
-> 
-> ![App Screenshot](./screenshot.png)
+To run this project locally, follow these steps:
+
+```bash
+@## 1. Clone the repository
+
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name/react-project-1
+
+@## 2. Install dependencies
+  npm install
+
+@## 3. Start the development server
+  npm run dev
 
 ## 📂 Project Structure
 react-project-1/
@@ -36,22 +46,5 @@ react-project-1/
 ├── README.md
 ├── package.json
 └── vite.config.js
-
-
-## 🚀 Getting Started
-
-To run this project locally, follow these steps:
-
-@## 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name/react-project-1
-
-@## 2. Install dependencies
-  npm install
-
-@## 3. Start the development server
-  npm run dev
 
 
