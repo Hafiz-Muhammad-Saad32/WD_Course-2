@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 400px;
+    background-color: black;
+    border: 3px solid rgb(255, 0, 0);
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(255, 15, 15);
+}
+
+h1 {
+    color: #ff8c00;
+}
+
+button {
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid red;
+    background: linear-gradient(to right, #f5ee6e, #ffcd60);
+    box-shadow: 2px 3px 5px rgb(0, 0, 0);
+    font-size: 2rem;
+    font-weight: bold;
+    color: #4a00e0;
+    cursor: pointer;
+    margin: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+.gradient-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    z-index: -1;
+    background: radial-gradient(circle,
+            transparent 20%,
+            rgb(255, 253, 122) 75%,
+            rgb(242, 255, 60) 100%);
+}
