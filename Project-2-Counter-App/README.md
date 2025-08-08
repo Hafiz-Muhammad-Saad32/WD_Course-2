@@ -1,12 +1,57 @@
-# React + Vite
+# 🚀 Counter App – My First React Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my first React project: a simple yet functional **Counter App** built using **React.js** and **Vite** in a **Node.js environment**.
 
-Currently, two official plugins are available:
+## 📌 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ➕ Increment counter by **+1**
+- ➖ Decrement counter by **-1**
+- 🔼 Increment counter by **+5**
+- 🔽 Decrement counter by **-5**
+- 🔁 **Reset** button to set counter back to zero
+- ⚡ Built with modern tools like **Vite** for fast development
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **Vite**
+- **JavaScript (ES6+)**
+- **Node.js** (for local development environment)
+
+## 📷 Preview
+
+> _You can add a screenshot here if you like:_
+> 
+> ![App Screenshot](./screenshot.png)
+
+## 📂 Project Structure
+react-project-1/
+├── public/
+├── src/
+│ ├── components/
+│ │ └── Counter.jsx
+│ ├── index.css
+│ └── main.jsx
+├── index.html
+├── README.md
+├── package.json
+└── vite.config.js
+
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+@## 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name/react-project-1
+
+@## 2. Install dependencies
+  npm install
+
+@## 3. Start the development server
+  npm run dev
+
+

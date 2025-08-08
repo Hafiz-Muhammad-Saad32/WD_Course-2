@@ -1,12 +1,55 @@
-# React + Vite
+# 💡 OnOffBulb App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+The **OnOffBulb App** is a simple yet visually engaging React project that allows users to toggle a bulb **on and off** with the click of a button. Alongside the functional toggle, the app also features a glowing **radial gradient border effect** to simulate visual feedback.
 
-Currently, two official plugins are available:
+This is my **second React app**, built to explore React state management, conditional rendering, and dynamic UI styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🔥 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🟡 Toggle the bulb **On/Off** with a single button
+- 🎨 Glowing **radial gradient border** appears when the bulb is ON
+- 🔁 Dynamic **button label** changes from "On" to "Off" and vice versa
+- ⚛️ Built with modern **React hooks** (`useState`)
+- 💻 Smooth user interface with clean CSS animations
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **JavaScript (ES6+)**
+- **Vite** (for fast development build)
+- **CSS3**
+
+---
+
+```html
+<button>On</button> ⟶ 💡 Bulb turns ON + Gradient border shows  
+<button>Off</button> ⟶ 💡 Bulb turns OFF + Gradient border hides
+
+🚀 Getting Started
+1. Clone the repository
+  -git clone https://github.com/Hafiz-Muhammad-Saad32/WD_Course/tree/  main/Project-3-OnOffBulb%20App
+  -cd OnOffBulb-App
+2. Install dependencies
+ -npm install
+3. Start the development server
+ -npm run dev
+ 
+
+📁 Project Structure
+
+OnOffBulb-App/
+├── src/
+│   ├── components/
+│   │   └── OnOffBulb.jsx
+│   ├── App.css
+│   └── main.jsx
+├── public/
+│   ├── on.jpg
+│   └── off.jpg
+├── README.md
+├── index.html
+└── package.json
