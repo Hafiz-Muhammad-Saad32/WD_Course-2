@@ -1,0 +1,94 @@
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 300px;
+}
+
+h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #7002ff;
+}
+
+.counter-display {
+  width: min-content;
+  padding: 1px 20px;
+  border-radius: 50%;
+  border: 2px solid red;
+  background: linear-gradient(to right, #f5ee6e, #ffcd60);
+  box-shadow: 2px 3px 5px rgb(0, 0, 0);
+  font-size: 4rem;
+  font-weight: bold;
+  color: #4a00e0;
+  margin: 1rem 0;
+  transition: all 0.3s ease;
+}
+
+.upper-btn,
+.lower-btn {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.lower-btn{
+  margin-top: 10px;
+}
+
+
+button {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.increment,
+.increment5 {
+  background-color: #38a169;
+  color: white;
+}
+
+.decrement,
+.decrement5 {
+  background-color: #e53e3e;
+  color: white;
+}
+
+.reset {
+  background-color: #3182ce;
+  color: white;
+}
+
+button:hover {
+  transform: scale(1.1);
+  box-shadow: 3px 5px 10px rgb(88, 206, 246);
+}
+@media(max-width:425px){
+  body{
+    background: linear-gradient( #764ba2);
+  }
+  .main{
+    padding:5px ;
+  }
+
+}
