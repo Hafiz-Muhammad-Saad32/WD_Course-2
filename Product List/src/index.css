@@ -1,0 +1,104 @@
+body{
+  background: linear-gradient(45deg, #ffbf603a);
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+    color: #e65c00;
+}
+.digital{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; 
+  justify-content:center;
+  padding: 20px;
+}
+/* Product Card Container */
+.product-card {
+    margin: 10px;
+    width: 320px;
+    background: #f9d4a3;
+    border-radius:8px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.381);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    font-family: Arial, sans-serif;
+}
+
+/* Hover Effect */
+.product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+}
+
+/* Image Styling */
+.product-image img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+/* Content Styling */
+.product-content {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.product-brand {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.product-brand span {
+    font-weight: bold;
+    color: #222;
+}
+
+.product-desc {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 12px;
+}
+
+.product-price span {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff6600;
+}
+
+.product-rating {
+    font-size: 14px;
+    margin: 8px 0;
+    color: #f39c12;
+}
+
+.product-stock span {
+    font-weight: bold;
+    color: green;
+}
+
+/* Buy Button */
+.buy-btn {
+    display: inline-block;
+    background: linear-gradient(45deg, #ff6600, #ff8533);
+    color: #fff;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.buy-btn:hover {
+    background: linear-gradient(45deg, #e65c00, #ff751a);
+    transform: scale(1.05);
+}
