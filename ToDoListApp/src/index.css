@@ -1,0 +1,111 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.app {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #7f5af0, #ff6f91);
+    font-family: Arial, sans-serif;
+}
+.todo-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+    width: 100%;
+    max-width: 400px;
+}
+.todo-container h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.input-section input {
+    flex: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+}
+.input-section input:focus {
+    border-color: #7f5af0;
+}
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.btn.add {
+    background: #7f5af0;
+}
+
+.btn.add:hover {
+    background: #6844d8;
+}
+
+.btn.update {
+    background: #f1c40f;
+    color: black;
+}
+
+.btn.update:hover {
+    background: #d4ac0d;
+}
+
+.btn.delete {
+    background: #e74c3c;
+}
+
+.btn.delete:hover {
+    background: #c0392b;
+}
+
+.btn.small {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+/* Todo list */
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.todo-item {
+    background: #f7f7f7;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.todo-item span {
+    color: #333;
+}
+
+.btn-group {
+    display: flex;
+    gap: 5px;
+}
+
+.empty-text {
+    text-align: center;
+    color: #888;
+    font-style: italic;
+}
