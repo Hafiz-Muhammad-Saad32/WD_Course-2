@@ -46,5 +46,10 @@ react-project-1/
 ├── README.md
 ├── package.json
 └── vite.config.js
+```
 
+## 🚀 Live Demo
+[Click here to view](https://counterapp6543.netlify.app/)
+
+---
 
